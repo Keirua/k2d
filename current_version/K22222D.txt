@@ -1,0 +1,11 @@
+Dans l'ordre:
+- gestion des cvar externes via gestionnaire de ressources
+
+ensuite on verra le reste
+
+-> gestionnaire de textures ? et de cvar/ccommand ?
+-> les highscores ? -> cryptage des fichiers + hashage ?
+-> Rajout gestion des maps, du pathfinding
+-> Gestionnaire particules + effets : meilleure gestion
+-> Support thread/reseau ?
+-> Passage sous glfw ?

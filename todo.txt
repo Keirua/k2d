@@ -1,0 +1,15 @@
+recuperer DevIL et FMOD
+
+A coder:
+vrai systeme de console/cvar
+vrai gestionnaire d'effets
+systeme d'animations
+gestionnaire de particules, avec qques effets
+gestionnaire de texte
+gestionnaire de meilleurs scores qui permette de stocker plus d'infos (nom du joueur, temps?) -> serialization, cryptage ?
+pathfinding générique ?
+virer la gestion reseau completement useless/intestable
+
+Commenter le code !
+
+

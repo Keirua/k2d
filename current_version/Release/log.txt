@@ -1,0 +1,11 @@
+Les scores sont charges
+JohN :: 2000
+JohN :: 8000
+JohN :: 5000
+JohN :: 1000
+JohN :: 10000
+JohN :: 5000
+JohN :: 9000
+JohN :: 9000
+JohN :: 3000
+JohN :: 5000

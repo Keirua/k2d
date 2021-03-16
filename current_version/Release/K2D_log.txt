@@ -1,0 +1,6 @@
+ -- Start logging (18:14:30)--
+
+<-> Sound Engine initialized
+<-> Window successfully opened
+
+ -- Closing log (18:14:36)--

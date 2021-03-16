@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: K2D - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\CLMENT~1\LOCALS~1\Temp\RSP4A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/K2D.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\old_K2D\Empty_Project\K2d\K2D_Texture.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\CLMENT~1\LOCALS~1\Temp\RSP4A.tmp" 
+Creating temporary file "C:\DOCUME~1\CLMENT~1\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/K2D.pdb" /machine:I386 /out:"Release/K2D.exe" 
+".\Release\K2D_Console.obj"
+".\Release\K2D_Engine.obj"
+".\Release\K2D_Font.obj"
+".\Release\K2D_HighScore.obj"
+".\Release\K2D_Particle.obj"
+".\Release\K2D_Sprite.obj"
+".\Release\K2D_Texture.obj"
+".\Release\K2D_Window.obj"
+".\Release\CGame.obj"
+".\Release\main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\CLMENT~1\LOCALS~1\Temp\RSP4B.tmp"
+<h3>Output Window</h3>
+Compiling...
+K2D_Texture.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+K2D.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
