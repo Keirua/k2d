@@ -1,10 +1,18 @@
 # K2D, « something that looks like a 2D game engine »
 
-I've just dug out my very first large open source project, a 2D game engine. It was published around 2004 I think, and I'm quite proud of what young me built. I've cleaned up the code a bit, removed the non-portable elements. It does not compile yet. I remember putting everything I knew about video games and C++. This is not a large project for me now that I'm working professionnally in this field, but
+## A blast from the past
 
-It comes with an empty project that you can just copy and start to use in order to build a game, and with a sample game that you can both play and use to learn the framework. There was no documentation, only a short "have fun and here my email in case of bugs" during the only release it had !
+I've just dug out my very first large open source project, a 2D game engine. It was published around 2004 I think, and I'm quite proud of what young me built. I've cleaned up the code a bit, removed the non-portable elements. It does not compile yet. I remember putting everything I knew about video games, C++ and engine design (which, from the outside, is probably not very impressive). This is not a large project for me now that I'm working professionnally in this field, but its 2000 lines took me some efforts to write.
 
-Here is the feature list:
+You can also note that the early 2000s were very different. There were way less online ressources (no video tutorials, not many open source projects accessible to beginners…) and finding the relevant information, or simply finding a piece of code for playing some music, was way harder than now.
+
+By the way I did not know about git or any kind of versionning system, so for now there is a `backup` and `current_version` directory.
+
+## K2D the game engine
+
+So the game engine is a set of .h and .cpp files that you can (could) include with your project. It comes with an empty project that you can just copy and start to use in order to build a game, and with a sample game that you can both play and use to learn the framework. There was no documentation, only a short "have fun and here my email in case of bugs" during the only release it had !
+
+# Feature list
 
  - Texture management
  - Sprites
