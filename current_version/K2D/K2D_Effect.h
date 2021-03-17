@@ -1,7 +1,7 @@
 #ifndef _K2D_EFFECT_H_
 #define _K2D_EFFECT_H_
 
-#include <sdl\sdl.h>
+#include <SDL/sdl.h>
 
 /*
 	Simplifier l utilisation des couleurs

@@ -3,10 +3,12 @@
 #define _K2D_ENGINE_H_
 
 
-#include <sdl\SDL.h>
-#include <windows.h>
-#include <gl\gl.h>
-#include <gl\glu.h>
+#include <SDL/sdl.h>
+#ifdef _MSC_VER
+	#include <windows.h>
+#endif
+#include <gl/gl.h>
+#include <gl/glu.h>
 #include <time.h>
 
 /*	Typedef utiles */

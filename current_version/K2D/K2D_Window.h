@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include <sdl\sdl.h>
+#include <SDL/sdl.h>
 #include <stdlib.h>
 #include <math.h>
 
