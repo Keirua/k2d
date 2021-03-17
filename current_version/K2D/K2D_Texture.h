@@ -12,11 +12,11 @@
 
 #include <GL/gl.h>						// Header File For The OpenGL32 Library
 #include <GL/glu.h>						// Header File For The GLu32 Library
-#include <GL/glaux.h>					// Header File For The GLaux Library
+// #include <GL/glaux.h>					// Header File For The GLaux Library
 
-#include <il\il.h>
-#include <il\ilu.h>
-#include <il\ilut.h>
+#include <IL/il.h>
+#include <IL/ilu.h>
+#include <IL/ilut.h>
 
 #include "K2D_Vector2.h"
 #include "K2D_Effect.h"

@@ -1,7 +1,8 @@
 #ifndef _K2D_STATE_H
 #define _K2D_STATE_H
 
-#include <windows.h>
+// todo: do we need this one here ?
+// #include <windows.h>
 #include <GL/gl.h>
 
 enum K2D_States

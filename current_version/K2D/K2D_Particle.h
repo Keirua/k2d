@@ -3,7 +3,7 @@
 
 #include <vector>
 #include "K2D_Vector2.h"
-#include "Singleton.h" 
+#include "singleton.h" 
 
 #include "K2D_State.h"
 #include "K2D_Sprite.h"
