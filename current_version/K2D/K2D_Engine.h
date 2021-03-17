@@ -16,7 +16,8 @@ typedef unsigned char uchar;
 typedef unsigned int uint;
 
 #include "K2D_Window.h"
-#include "K2D_Sound.h"
+// disable sounds for now
+// #include "K2D_Sound.h"
 #include "K2D_Vector2.h"
 #include "K2D_State.h"
 #include "K2D_Console.h"
