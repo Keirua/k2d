@@ -2,7 +2,7 @@
 #define _K2D_STATE_H
 
 #include <windows.h>
-#include <gl\gl.h>
+#include <GL/gl.h>
 
 enum K2D_States
 {

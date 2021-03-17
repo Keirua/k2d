@@ -1,11 +1,11 @@
 #include "K2D_Window.h"
 
-#include <il\il.h>
-#include <il\ilu.h>
-#include <il\ilut.h>
+// #include <il\il.h>
+// #include <il\ilu.h>
+// #include <il\ilut.h>
 #include <vector>
 #include <windows.h>
-#include <gl\gl.h>
+#include <GL/gl.h>
 #include "K2D_Log.h"
 
 extern K2D_Window	g_Gfx;

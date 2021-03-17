@@ -10,9 +10,9 @@
 	#include <windows.h>					// Include the much need windows.h
 #endif
 
-#include <gl\gl.h>						// Header File For The OpenGL32 Library
-#include <gl\glu.h>						// Header File For The GLu32 Library
-#include <gl\glaux.h>					// Header File For The GLaux Library
+#include <GL/gl.h>						// Header File For The OpenGL32 Library
+#include <GL/glu.h>						// Header File For The GLu32 Library
+#include <GL/glaux.h>					// Header File For The GLaux Library
 
 #include <il\il.h>
 #include <il\ilu.h>
