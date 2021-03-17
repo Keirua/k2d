@@ -1,6 +1,6 @@
 #include "K2D_HighScore.h"
 #include <stdio.h>
-#include <SDL/sdl.h>
+#include <SDL/SDL.h>
 
 #define K2D_HIGHSCORE_HASH "K2D\0"
 

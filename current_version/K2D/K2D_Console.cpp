@@ -1,5 +1,5 @@
 #include "K2d_Console.h"
-#include <SDL/sdl.h>
+#include <SDL/SDL.h>
 
 
 bool K2D_Console :: isEnabled ()

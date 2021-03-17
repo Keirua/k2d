@@ -3,7 +3,7 @@
 #define _K2D_ENGINE_H_
 
 
-#include <SDL/sdl.h>
+#include <SDL/SDL.h>
 #ifdef _MSC_VER
 	#include <windows.h>
 #endif
