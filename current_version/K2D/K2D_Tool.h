@@ -8,6 +8,7 @@
 #include <vector>
 #include <sstream>
 #include <ctime>
+#include <cstdlib>
 
 /*
 	Classe utilitaire contenant quelques fonctions *utiles*
@@ -67,60 +68,61 @@ public:
 			return "";
 
 		// Definition de quelques trucs utiles :D
-		static char* days[]={"Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"};
-		static char* months[]={"Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", 
+		static std::string days[]={"Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"};
+		static std::string months[]={"Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", 
 							"Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"};
 
 		char buffer[32];	// conversions via itoa
 
-		for (int i = 0; i < format.size();i++)
-		{
-			switch (format[i])
-			{
-			// Heure
-			case 'h':
-				itoa(timeinfo->tm_hour, &buffer[0], 10);
-				szDate += buffer;
-				break;
-			// minute
-			case 'i':
-				itoa(timeinfo->tm_min, &buffer[0], 10);
-				szDate += buffer;
-				break;
-			// secondes
-			case 's':
-				itoa(timeinfo->tm_sec, &buffer[0], 10);
-				szDate += buffer;
-				break;
-			// jour (chiffre)
-			case 'd':
-				itoa(timeinfo->tm_mday, &buffer[0], 10);
-				szDate += buffer;
-				break;
-			// jour (lettres)
-			case 'D':
-				szDate += days[timeinfo->tm_wday];
-				break;
-			// mois (chiffre)
-			case 'm':
-				itoa(timeinfo->tm_mon, &buffer[0], 10);
-				szDate += buffer;
-				break;
-			// mois (lettres)
-			case 'M':
-				szDate += months[timeinfo->tm_mon];
-				break;
-			// annee (chiffre)
-			case 'y':
-				itoa(timeinfo->tm_year+1900, &buffer[0], 10);
-				szDate += buffer;
-				break;
-			// Si on trouve un caractere autre, on l ajoute au résultat
-			default:
-				szDate += format[i];
-				break;
-			}
-		}
+		// todo: commented out until it builds
+		// for (int i = 0; i < format.size();i++)
+		// {
+		// 	switch (format[i])
+		// 	{
+		// 	// Heure
+		// 	case 'h':
+		// 		itoa(timeinfo->tm_hour, &buffer[0], 10);
+		// 		szDate += buffer;
+		// 		break;
+		// 	// minute
+		// 	case 'i':
+		// 		itoa(timeinfo->tm_min, &buffer[0], 10);
+		// 		szDate += buffer;
+		// 		break;
+		// 	// secondes
+		// 	case 's':
+		// 		itoa(timeinfo->tm_sec, &buffer[0], 10);
+		// 		szDate += buffer;
+		// 		break;
+		// 	// jour (chiffre)
+		// 	case 'd':
+		// 		itoa(timeinfo->tm_mday, &buffer[0], 10);
+		// 		szDate += buffer;
+		// 		break;
+		// 	// jour (lettres)
+		// 	case 'D':
+		// 		szDate += days[timeinfo->tm_wday];
+		// 		break;
+		// 	// mois (chiffre)
+		// 	case 'm':
+		// 		itoa(timeinfo->tm_mon, &buffer[0], 10);
+		// 		szDate += buffer;
+		// 		break;
+		// 	// mois (lettres)
+		// 	case 'M':
+		// 		szDate += months[timeinfo->tm_mon];
+		// 		break;
+		// 	// annee (chiffre)
+		// 	case 'y':
+		// 		itoa(timeinfo->tm_year+1900, &buffer[0], 10);
+		// 		szDate += buffer;
+		// 		break;
+		// 	// Si on trouve un caractere autre, on l ajoute au résultat
+		// 	default:
+		// 		szDate += format[i];
+		// 		break;
+		// 	}
+		// }
 
 		return szDate;
 	}
@@ -133,18 +135,20 @@ public:
 class string_func
 {
 public:
+	// todo: commented out until it builds
+	// todo: unused
 	// met a la suite tous les elements du tableau,  et les sépare par le caractere delim
-	static std::string implode ( std::vector <std::string> v, char delim = ' ' )
-	{
-		std::string res = "";
-		for (int i =0; i < v.size()-1;i++)
-		{
-			res += v [i];
-			res += delim;
-		}
-		res += v[i];
-		return res;
-	}
+	// static std::string implode ( std::vector <std::string> v, char delim = ' ' )
+	// {
+	// 	std::string res = "";
+	// 	for (int i =0; i < v.size()-1;i++)
+	// 	{
+	// 		res += v [i];
+	// 		res += delim;
+	// 	}
+	// 	res += v[i];
+	// 	return res;
+	// }
 
 	// sépare une chaine suivant le caractere delim et met le tout dans un tableau
 	static std::vector <std::string> explode ( std::string in, char delim = ' ')

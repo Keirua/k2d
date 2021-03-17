@@ -34,8 +34,9 @@ void CGame :: Init ()
 	m_Console.Register ("quit", &Con_Quit);
 	m_Console.Register ("currenttime", &Curr_Time);
 
-	m_BgMusic.Load ("data/The World Is Mine.mp3");
-	m_BgMusic.Play ();
+	// todo: commented out until it builds
+	// m_BgMusic.Load ("data/The World Is Mine.mp3");
+	// m_BgMusic.Play ();
 	m_pEffect = new K2D_FadeOut (K2D_Vector2(0,0), K2D_Vector2(WIDTH, HEIGHT), 3000, K2D_Color(0,128,255));
 	m_Spr = new K2D_AnimatedSprite;
 	m_Spr->Load ("data/player.png");

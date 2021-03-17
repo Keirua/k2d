@@ -19,23 +19,24 @@ class K2D_Log: public singleton<K2D_Log>
 {
 	friend class singleton<K2D_Log>;
 public:
-	void Open (char* szLogFile)
+	void Open (std::string szLogFile)
 	{
 		m_Stream.open (szLogFile);
-		Log (" -- Start logging (%s)--\n", K2D_Tool::Date("h:i:s").c_str());
+		Log (" -- Start logging (%s)--\n", K2D_Tool::Date("h:i:s"));
 	}
-	void Log (char* format, ...)
+	void Log (std::string format, ...)
 	{
-		static const int MAX_BUFF_SIZE = 2048;
-		static char buffer[MAX_BUFF_SIZE];
-		va_list args;
+		// todo: commented out until it builds
+		// static const int MAX_BUFF_SIZE = 2048;
+		// static char buffer[MAX_BUFF_SIZE];
+		// va_list args;
 
-		va_start(args, format);
-			vsprintf(buffer, format, args);
-		va_end(args);
+		// va_start(args, format);
+		// 	vsprintf(buffer, format, args);
+		// va_end(args);
 
-		m_Stream << buffer << '\n';
-		m_Stream.flush ();		
+		// m_Stream << buffer << '\n';
+		// m_Stream.flush ();		
 	}
 	void Log (int type, char* format, ...)
 	{

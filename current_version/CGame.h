@@ -18,7 +18,8 @@ public:
 	void OnPress (int key);
 private:
 
-	K2D_Sound m_BgMusic;
+	// todo: commented out until it builds
+	// K2D_Sound m_BgMusic;
 	K2D_AnimatedSprite* m_Spr;
 	K2D_Effect* m_pEffect;
 	K2D_HighScoreTable score;
