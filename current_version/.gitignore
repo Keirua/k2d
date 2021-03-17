@@ -1,1 +1,2 @@
-K2D/K2D_Engine.h.gch
+*.h.gch
+**/*.gch
